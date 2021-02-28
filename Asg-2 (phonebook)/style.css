@@ -1,0 +1,27 @@
+
+body{
+    overflow: auto;
+}
+dt{
+    background-color: #5390d9;
+    font-size: 2em;
+    padding: 0.2em 1em;
+    /* position:-webkit-sticky; */
+    position: sticky;
+    top: 0.5em;
+
+}
+dd{
+    font-size: 1.5em;
+    background-color: #83c5be;
+    margin: 0.3em 3em 0.3em ;
+    position: sticky;
+    top: 3em;
+    z-index: -1;
+    /* width: 50%; */
+}
+dd::before{
+    content: "\1F4DE";
+    margin-right: 0.3em;
+}
+
