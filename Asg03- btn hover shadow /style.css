@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(29, 29, 29));
+    /* background: black; */
+  }
+
+.wrap{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    color:#F87171;
+    border: 2px solid #F87171;
+    padding: 0.7em 1.3em;
+    background: transparent;
+    outline: none;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 7px 12px -7px #6EE7B7;
+    color:#6EE7B7;
+    border: 2px solid #6EE7B7;
+}
+
+
+
