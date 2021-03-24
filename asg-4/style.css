@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    background-color: rgb(240, 199, 124);
+}
+main{
+    width: 100%;
+}
+
+.cards{
+    margin-top: 2px;
+    display: flex;
+    justify-content:space-around;
+    /* min-width: 9em; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+article{
+    /* border: 2px solid green; */
+    align-self: center;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 8px gray;
+    /* display: flex;x */
+    /* justify-content: center; */
+    background-color: rgb(225, 240, 252);
+
+}
+
+article figure {
+    width: 300px;
+    /* border: 2px solid red; */
+  }
+
+article figure img {
+    width: 100%;
+    height: 100%;
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#cf {
+    margin-top: 0.4em;
+    position:relative;
+}
+  
+#cf .bottom{
+    position:absolute;
+}
+
+#cf img{
+    width: 100%;
+}
+
+.top{
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+button{
+    padding:1em 4em;
+    background-color: rgb(240, 135, 135);
+    box-shadow: 2px 4px 8px orange;
+    border-style: none;
+    border-radius: 0.5em;
+}
+
+nav{
+    font-size: 1.4em;
+    color: orangered;
+    font-family: sans-serif;
+}
+a:link{
+    text-decoration: none;
+    /* background-color: orange; */
+    font-size: larger;
+    color: orangered ;
+}
+
+footer{
+    background-color: rgb(82, 125, 243);
+    font-family: sans-serif;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 1em;
+    font-size: 1.2em;
+
+}
+
+footer ul li a{
+    color: rgb(247, 198, 121);
+}
